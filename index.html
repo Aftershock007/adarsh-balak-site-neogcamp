@@ -5,9 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Component Library</title>
+    <!-- CSS Way-1: style tag
+
+        <style>
+      body {
+        color: red;
+      }
+    </style> -->
+
+    <!-- CSS Way-3: External link -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <h1>arijit's component library.</h1>
+    <!-- CSS Way-2: inside a tag
+         style= "color: red" -->
     <p>
       I'm attending neog.camp and I want to make a library which would make all
       my projects look good and consistent.
@@ -23,6 +35,7 @@
       Let me show you the normal text. this is free flowing and will wrap at the
       end like a paragraph.
     </p>
+    <p>This paragraph will have a <strong>bold</strong> text</p>
     <small>This is relatively smaller text</small>
 
     <hr />
@@ -30,12 +43,12 @@
     <h2>@container</h2>
 
     <h3>Fluid container</h3>
-    <div>
+    <div class="container">
       This is a fluid container and it will go till the end of the page.
     </div>
 
     <h3>Center container</h3>
-    <div>
+    <div class="container container-center">
       This is a centered container and it will go till the end of the page.
     </div>
 
