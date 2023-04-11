@@ -74,6 +74,7 @@ hr {
 
 .navigation .nav-pills {
     text-align: right;
+    /* It means it will be in right side */
 }
 
 .navigation .link {
