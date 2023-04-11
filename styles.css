@@ -1,17 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+:root {
+    --primary-color: #7c3aed;
+}
+
 body {
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* container */
 
 .container {
-  padding-left: 1rem;
-  padding-right: 1rem;
+    padding: 0rem 1rem;
+    /* It means 0rem from top and bottom and 1rem from left and right */
+    /* Basically padding: top right bottom left; So if we apply padding in two sides then it automatically apply for rest two sides*/
 }
 
 .container-center {
-  max-width: 600px;
-  margin: auto;
+    max-width: 600px;
+    margin: auto;
+    /* max-width means maximum width of the container is 600px and margin: auto means it will be in center */
 }
+
+/* links */
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/* Look into BEM naming convention for CSS */

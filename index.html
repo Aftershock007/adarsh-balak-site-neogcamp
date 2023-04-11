@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Component Library</title>
-    <!-- CSS Way-1: style tag
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Component Library</title>
+        <!-- CSS Way-1: style tag
 
         <style>
       body {
@@ -13,130 +13,131 @@
       }
     </style> -->
 
-    <!-- CSS Way-3: External link -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <h1>arijit's component library.</h1>
-    <!-- CSS Way-2: inside a tag
+        <!-- CSS Way-3: External link -->
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <h1>arijit's component library.</h1>
+        <!-- CSS Way-2: inside a tag
          style= "color: red" -->
-    <p>
-      I'm attending neog.camp and I want to make a library which would make all
-      my projects look good and consistent.
-    </p>
+        <p>
+            I'm attending neog.camp and I want to make a library which would
+            make all my projects look good and consistent.
+        </p>
 
-    <hr />
+        <hr />
 
-    <h2>@typography</h2>
+        <h2>@typography</h2>
 
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>
-      Let me show you the normal text. this is free flowing and will wrap at the
-      end like a paragraph.
-    </p>
-    <p>This paragraph will have a <strong>bold</strong> text</p>
-    <small>This is relatively smaller text</small>
+        <h1>This is the biggest heading</h1>
+        <h2>This is the second biggest heading</h2>
+        <p>
+            Let me show you the normal text. this is free flowing and will wrap
+            at the end like a paragraph.
+        </p>
+        <p>This paragraph will have a <strong>bold</strong> text</p>
+        <small>This is relatively smaller text</small>
 
-    <hr />
+        <hr />
 
-    <h2>@container</h2>
+        <h2>@container</h2>
 
-    <h3>Fluid container</h3>
-    <div class="container">
-      This is a fluid container and it will go till the end of the page.
-    </div>
+        <h3>Fluid container</h3>
+        <div class="container">
+            This is a fluid container and it will go till the end of the page.
+        </div>
 
-    <h3>Center container</h3>
-    <div class="container container-center">
-      This is a centered container and it will go till the end of the page.
-    </div>
+        <h3>Center container</h3>
+        <div class="container container-center">
+            This is a centered container and it will go till the end of the
+            page.
+        </div>
 
-    <hr />
+        <hr />
 
-    <h2>@links</h2>
+        <h2>@links</h2>
 
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+        <a class="link link-primary" href="/">Primary Link</a>
+        <a class="link link-secondary" href="/">Secondary Link</a>
 
-    <hr />
+        <hr />
 
-    <h2>@lists</h2>
+        <h2>@lists</h2>
 
-    <h3>unordered list</h3>
-    <ul>
-      <li>Item One</li>
-      <li>Item Two</li>
-      <li>Item Three</li>
-    </ul>
+        <h3>unordered list</h3>
+        <ul>
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+        </ul>
 
-    <h3>unordered inline list</h3>
-    <ul>
-      <li>Inline Item One</li>
-      <li>Inline Item Two</li>
-      <li>Inline Item Three</li>
-    </ul>
+        <h3>unordered inline list</h3>
+        <ul>
+            <li>Inline Item One</li>
+            <li>Inline Item Two</li>
+            <li>Inline Item Three</li>
+        </ul>
 
-    <h3>reverse ordered list</h3>
-    <ol>
-      <li>Item One</li>
-      <li>Item Two</li>
-      <li>Item Three</li>
-    </ol>
+        <h3>reverse ordered list</h3>
+        <ol>
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+        </ol>
 
-    <hr />
+        <hr />
 
-    <h2>@nav</h2>
+        <h2>@nav</h2>
 
-    <nav>
-      <div>iAmBrand</div>
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/">Products</a>
-        </li>
-        <li>
-          <a href="/">About</a>
-        </li>
-      </ul>
-    </nav>
+        <nav>
+            <div>iAmBrand</div>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/">Products</a>
+                </li>
+                <li>
+                    <a href="/">About</a>
+                </li>
+            </ul>
+        </nav>
 
-    <hr />
+        <hr />
 
-    <h2>@header</h2>
+        <h2>@header</h2>
 
-    <header>
-      <img src="./images/hero.svg" />
-      <h1>heading inside hero</h1>
-    </header>
+        <header>
+            <img src="./images/hero.svg" />
+            <h1>heading inside hero</h1>
+        </header>
 
-    <hr />
+        <hr />
 
-    <h2>@section</h2>
+        <h2>@section</h2>
 
-    <section>
-      <h3>white section</h3>
-      <p>This will have white background</p>
-    </section>
+        <section>
+            <h3>white section</h3>
+            <p>This will have white background</p>
+        </section>
 
-    <section>
-      <h3>off white section</h3>
-      <p>This will have gray background</p>
-    </section>
+        <section>
+            <h3>off white section</h3>
+            <p>This will have gray background</p>
+        </section>
 
-    <hr />
+        <hr />
 
-    <h2>@footer</h2>
+        <h2>@footer</h2>
 
-    <footer>
-      <div>Some small heading inside footer</div>
-      <ul>
-        <li>socialOne</li>
-        <li>socialTwo</li>
-        <li>socialThree</li>
-      </ul>
-    </footer>
-  </body>
+        <footer>
+            <div>Some small heading inside footer</div>
+            <ul>
+                <li>socialOne</li>
+                <li>socialTwo</li>
+                <li>socialThree</li>
+            </ul>
+        </footer>
+    </body>
 </html>
