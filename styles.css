@@ -32,6 +32,7 @@ hr {
 /* links */
 
 .link {
+    /* box-sizing: border-box; */
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -92,6 +93,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -136,6 +138,11 @@ hr {
 
 .footer .link {
     color: white;
+}
+
+.footer .footer-header {
+    font-size: large;
+    font-weight: bold;
 }
 
 .footer ul {
